@@ -460,7 +460,7 @@ padding-top: 2vh;
   text-decoration: none;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1300px){
   header{
     padding: 12px 20px;
   }
