@@ -97,6 +97,7 @@ section .work{
 
 .btn:hover{
   background: #731a15;
+  transform: scale(1.15);
 }
 
 header{
@@ -118,12 +119,9 @@ header.sticky{
   padding: 10px 200px;
 }
 
-header .brand{
-  color: #fff;
-  font-size: 1.8em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
+header img{
+  height: auto;
+  width: 80px;
 }
 
 header .navigation{
@@ -139,7 +137,7 @@ header .navigation a{
 }
 
 header .navigation a:hover{
-  color: #FFF;
+  color: black;
 }
 
 header.sticky .navigation a:hover{
