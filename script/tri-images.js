@@ -9,9 +9,9 @@ window.onload = ()=>{ //après le chargement de la fenêtre
       selectedItem.target.classList.add("active"); 
       let filterName = selectedItem.target.getAttribute("data-name");
       filterImg.forEach((image) => {
-        let filterImges = image.getAttribute("data-name"); //récupération de la classe d'image
+        let filterImges = image.getAttribute("data-name").split(","); //récupération de la classe d'image
         
-        if((filterImges == filterName) || (filterName == "all")){
+        if((filterImges.includes(filterName)) || (filterName == "all")){
           image.classList.remove("hide");
           image.classList.add("show");
         }else{
@@ -25,7 +25,6 @@ window.onload = ()=>{ //après le chargement de la fenêtre
     filterImg[i].setAttribute("onclick", "preview(this)"); //ajout de l'attribut onclick dans toutes les images disponibles
   }
 }
-
 //fonction de prévisualisation des images en plein écran
 const previewBox = document.querySelector(".preview-box"),
 categoryName = previewBox.querySelector(".title p"),
