@@ -18,7 +18,7 @@
 }
 .wrapper .items{
   display: flex;
-  max-width: 915px;
+  max-width: 1100px;
   width: 100%;
   justify-content: space-between;
 }
@@ -132,7 +132,7 @@
   text-align: center;
 }
 .details .icon{
-  color: #007bff;
+  color: #121212;
   font-style: 22px;
   cursor: pointer;
 }
