@@ -2,6 +2,16 @@
 const filterItem = document.querySelector(".items");
 const filterImg = document.querySelectorAll(".gallery .image");
 
+
+document.querySelectorAll('.image').forEach(function(element){
+if (element.getAttribute('data-name').indexOf('Nouveautés') == -1){
+element.classList.add('hide');
+element.classList.remove('show');
+
+}
+
+});
+
 window.onload = ()=>{ //après le chargement de la fenêtre
   filterItem.onclick = (selectedItem)=>{ //si l'utilisateur clique il y a une filtration
     if(selectedItem.target.classList.contains("item")){
