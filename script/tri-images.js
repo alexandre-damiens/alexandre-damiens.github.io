@@ -4,7 +4,7 @@ const filterImg = document.querySelectorAll(".gallery .image");
 
 
 document.querySelectorAll('.image').forEach(function(element){
-if (element.getAttribute('data-name').indexOf('Nouveautés') == -1){
+if (element.getAttribute('data-name').indexOf('Infographie') == -1){
 element.classList.add('hide');
 element.classList.remove('show');
 
