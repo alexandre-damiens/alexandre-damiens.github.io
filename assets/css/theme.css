@@ -69,8 +69,9 @@ html, body {
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: auto;
 }
+
 body {
 	position: relative;
 	background-color: #000;
@@ -1209,8 +1210,7 @@ ul.isotope-filter-links > li > a.active {
 	padding-top: 1.5%;
 	margin-left: 1.5%;
 	margin-right: 1.5%;
-	margin-top: -0.8%;
-	margin-bottom: -0.8%;
+
 }
 .isotope.gutter-3 .isotope-items-wrap {
 	padding-top: 2.5%;
