@@ -119,17 +119,17 @@ img {
 ::selection {
 	color: #fff;
 	text-shadow: none;
-	background: #ea4e4e;
+	background: #1E90FF;
 }
 ::-moz-selection {
 	color: #fff;
 	text-shadow: none;
-	background: #ea4e4e; /* Firefox */
+	background: #1E90FF; /* Firefox */
 }
 ::-webkit-selection {
 	color: #fff;
 	text-shadow: none;
-	background: #ea4e4e; /* Safari */
+	background: #1E90FF; /* Safari */
 }
 
 .cover {
